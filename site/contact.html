@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Madaraka Homes Ltd — Call 0715 579579 or visit TRV Towers, Ngara Road, Nairobi. We're here to help you own your piece of Kenya.">
+  <title>Contact — Madaraka Homes Ltd | Nairobi, Kenya</title>
+  <link rel="stylesheet" href="css/design-tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="header" data-header>
+    <div class="header__inner">
+      <a href="/" class="header__logo">
+        <div class="header__logo-icon">M</div>
+        Madaraka Homes
+      </a>
+      <button class="header__toggle" data-nav-toggle aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="header__nav" data-nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/projects">Projects</a>
+        <a href="/contact" class="active">Contact</a>
+        <a href="/blog">Insights</a>
+        <a href="tel:+254715579579" class="header__phone">0715 579579</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== PAGE HERO ===== -->
+    <section class="hero hero--page">
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 500'%3E%3Crect fill='%230F172A' width='1440' height='500'/%3E%3C/svg%3E"
+        data-src="assets/images/hero/about-kenya.jpg"
+        alt="Contact Madaraka Homes"
+        class="hero__bg"
+        loading="lazy"
+      >
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1>Get in Touch</h1>
+        <p>We're here to help you own your piece of Kenya.</p>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-header__divider">
+            <div class="section-header__divider-pattern">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+          <h2>Let's Talk Land</h2>
+          <p>Reach out and let us help you find the perfect plot.</p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Left: Contact Form -->
+          <div>
+            <form class="form" data-contact-form>
+              <div class="form__group">
+                <label class="form__label form__label--required" for="name">Full Name</label>
+                <input class="form__input" type="text" id="name" name="name" required>
+                <span class="form__error">Please enter your name</span>
+              </div>
+
+              <div class="form__group">
+                <label class="form__label form__label--required" for="email">Email Address</label>
+                <input class="form__input" type="email" id="email" name="email" required>
+                <span class="form__error">Please enter a valid email</span>
+              </div>
+
+              <div class="form__group">
+                <label class="form__label" for="phone">Phone Number</label>
+                <input class="form__input" type="tel" id="phone" name="phone">
+              </div>
+
+              <div class="form__group">
+                <label class="form__label" for="interest">I'm Interested In</label>
+                <select class="form__select" id="interest" name="interest">
+                  <option value="">Select one...</option>
+                  <option value="general">General</option>
+                  <option value="buying">Buying Land</option>
+                  <option value="selling">Selling</option>
+                  <option value="partnership">Partnership</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form__group">
+                <label class="form__label form__label--required" for="message">Message</label>
+                <textarea class="form__textarea" id="message" name="message" required></textarea>
+                <span class="form__error">Please enter a message</span>
+              </div>
+
+              <div class="form__group">
+                <label style="display: flex; align-items: center; gap: var(--space-2); font-size: var(--font-size-sm); cursor: pointer;">
+                  <input type="checkbox" name="consent" required style="width: auto;">
+                  I consent to Madaraka Homes Ltd storing and processing my data.
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn--primary form__submit">Send Message</button>
+
+              <div class="form__success">
+                Thank you! We'll get back to you within 24 hours.
+              </div>
+            </form>
+          </div>
+
+          <!-- Right: Contact Info -->
+          <div>
+            <div class="contact-info-card">
+              <h3>Our Details</h3>
+
+              <div class="contact-info-item">
+                <div class="contact-info-item__icon">&#x1F4DE;</div>
+                <div>
+                  <div class="contact-info-item__label">Phone</div>
+                  <div class="contact-info-item__value"><a href="tel:+254715579579">0715 579579</a></div>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-info-item__icon">&#x2709;</div>
+                <div>
+                  <div class="contact-info-item__label">Email</div>
+                  <div class="contact-info-item__value"><a href="mailto:info@madarakahomes.co.ke">info@madarakahomes.co.ke</a></div>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-info-item__icon">&#x1F4CD;</div>
+                <div>
+                  <div class="contact-info-item__label">Location</div>
+                  <div class="contact-info-item__value">TRV Towers, Ngara Road<br>Suite 4C, Ngara, Nairobi</div>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-info-item__icon">&#x1F552;</div>
+                <div>
+                  <div class="contact-info-item__label">Office Hours</div>
+                  <div class="contact-info-item__value">Mon-Fri 8am-5pm<br>Sat 9am-1pm</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Map -->
+            <div class="map" style="margin-top: var(--space-6);">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6548!2d36.8222!3d-1.2850!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d4b7b7b7b7%3A0x7b7b7b7b7b7b7b7b!2sTRV%20Towers!5e0!3m2!1sen!2ske!4v1"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Map of TRV Towers, Ngara Road, Nairobi"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <a href="/" class="header__logo" style="color: var(--color-bg)">
+          <div class="header__logo-icon">M</div>
+          Madaraka Homes
+        </a>
+        <p>Your trusted partner in land ownership across Kenya. Affordable plots, flexible payment plans, verified titles.</p>
+        <div class="footer__social">
+          <a href="https://www.facebook.com/madarakahomesltd" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Twitter">𝕏</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+      <div class="footer__column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="/blog">Insights</a></li>
+          <li><a href="/payment-plans">Payment Plans</a></li>
+          <li><a href="/faq">FAQs</a></li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h4>Stay Updated</h4>
+        <p style="font-size: var(--font-size-sm); opacity: 0.7;">Get new project alerts and market insights.</p>
+        <form class="footer__newsletter">
+          <input type="email" placeholder="Your email" aria-label="Email for newsletter">
+          <button type="submit">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 Madaraka Homes Ltd. All rights reserved.</span>
+      <span>TRV Towers, Ngara Road, Nairobi</span>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
